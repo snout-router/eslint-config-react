@@ -1,43 +1,38 @@
 {
-  "name": "@snout/GITHUB_REPO_NAME",
+  "name": "@snout/eslint-config-react",
   "version": "0.0.0",
-  "description": "REPLACE_ME",
-  "repository": "snout-router/GITHUB_REPO_NAME",
-  "bugs": "https://github.com/snout-router/GITHUB_REPO_NAME/issues",
+  "description": "The ESLint configuration used by Snout repositories that use React",
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "repository": "snout-router/eslint-config-react",
+  "bugs": "https://github.com/snout-router/eslint-config-react/issues",
   "homepage": "https://snout.dev",
   "author": "Erin Millard <ezzatron@gmail.com>",
   "license": "MIT",
   "publishConfig": {
     "access": "public"
   },
-  "main": "dist/index.js",
-  "module": "dist/index.es.js",
-  "typings": "dist/index.d.ts",
-  "sideEffects": false,
+  "main": ".eslintrc.js",
   "files": [
-    "/dist/"
+    ".eslintrc.js"
   ],
-  "engines": {
-    "node": ">=14"
-  },
-  "scripts": {
-    "prepare": "rollup --config rollup.config.js"
+  "dependencies": {
+    "@snout/eslint-config": "^2.0.0",
+    "eslint-config-standard-jsx": "^10.0.0",
+    "eslint-config-standard-react": "^11.0.1"
   },
   "devDependencies": {
-    "@snout/eslint-config": "^1.1.2",
-    "@snout/jest-config": "^1.0.2",
-    "@snout/rollup-config": "^1.1.2",
-    "@snout/tsconfig": "^1.0.3",
-    "@typescript-eslint/eslint-plugin": "^4.18.0",
-    "@typescript-eslint/parser": "^4.18.0",
-    "codecov": "^3.0.2",
-    "eslint": "^7.21.0",
-    "eslint-plugin-import": "^2.22.1",
-    "eslint-plugin-jest": "^24.3.2",
+    "@typescript-eslint/eslint-plugin": "^4.29.2",
+    "@typescript-eslint/parser": "^4.29.2",
+    "eslint": ">=7",
+    "eslint-plugin-import": "^2.24.0",
+    "eslint-plugin-jest": ">=24",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^5.1.0",
     "eslint-plugin-react": "^7.24.0",
     "react": "^17.0.2",
-    "typescript": "^4.2.3"
+    "typescript": "^4.3.5"
   }
 }
