@@ -1,4 +1,4 @@
-# Snout ESLint configuration for React
+# Snout ESLint Configuration for React
 
 [![Current version][badge-version-image]][badge-version-link]
 
