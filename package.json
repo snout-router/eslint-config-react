@@ -19,6 +19,7 @@
     ".eslintrc.js"
   ],
   "dependencies": {
+    "@rushstack/eslint-patch": "^1.1.4",
     "@snout/eslint-config": "^3.2.1",
     "eslint-plugin-react": "^7.30.1",
     "eslint-plugin-react-hooks": "^4.6.0"
