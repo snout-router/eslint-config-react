@@ -19,20 +19,14 @@
     ".eslintrc.js"
   ],
   "dependencies": {
-    "@snout/eslint-config": "^2.0.0",
-    "eslint-config-standard-jsx": "^10.0.0",
-    "eslint-config-standard-react": "^11.0.1"
+    "@snout/eslint-config": "^3.2.1",
+    "eslint-plugin-react": "^7.30.1",
+    "eslint-plugin-react-hooks": "^4.6.0"
   },
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^4.29.2",
-    "@typescript-eslint/parser": "^4.29.2",
-    "eslint": ">=7",
-    "eslint-plugin-import": "^2.24.0",
-    "eslint-plugin-jest": ">=24",
-    "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^5.1.0",
-    "eslint-plugin-react": "^7.24.0",
-    "react": "^17.0.2",
+    "eslint": "^8.19.0",
+    "prettier": "^2.7.1",
+    "react": "^18.2.0",
     "typescript": "^4.3.5"
   }
 }

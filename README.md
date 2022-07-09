@@ -7,23 +7,17 @@
 
 ## Installation
 
-Install as an NPM and then resolve all the peer dependency issues. Peer
-dependencies are necessary because of [an ESLint limitation].
+Install as a dev dependency using your preferred package manager.
 
 ## Usage
 
-Designed for use in conjunction with [@snout-router/eslint-config].
-
 ```js
-// .eslintrc.js
+// .eslintrc.cjs
 module.exports = {
-  extends: [
-    '@snout/react',
-  ],
-}
+  extends: ["@snout/react"],
+};
 ```
 
-<!-- References -->
+This will also extend [@snout-router/eslint-config].
 
 [@snout-router/eslint-config]: https://github.com/snout-router/eslint-config
-[an eslint limitation]: https://github.com/eslint/eslint/issues/3458
