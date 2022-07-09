@@ -7,4 +7,8 @@ module.exports = {
       version: "detect",
     },
   },
+  rules: {
+    // don't use run-time prop types, use TypeScript instead
+    "react/prop-types": "off",
+  },
 };
