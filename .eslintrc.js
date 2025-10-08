@@ -1,7 +1,10 @@
 require("@rushstack/eslint-patch/modern-module-resolution");
 
 module.exports = {
-  extends: ["plugin:react/recommended", "plugin:react-hooks/recommended"],
+  extends: [
+    "plugin:react/recommended",
+    "plugin:react-hooks/recommended-legacy",
+  ],
   settings: {
     react: {
       version: "detect",
